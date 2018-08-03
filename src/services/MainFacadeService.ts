@@ -83,7 +83,7 @@ export class MainFacadeService extends FacadeService implements IOpenable {
         this._credentialResolver.setReferences(references);
     }
 
-    public isOpened(): boolean {
+    public isOpen(): boolean {
         return this._http != null;
     }
 

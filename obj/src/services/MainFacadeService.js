@@ -49,7 +49,7 @@ class MainFacadeService extends FacadeService_1.FacadeService {
         this._connectionResolver.setReferences(references);
         this._credentialResolver.setReferences(references);
     }
-    isOpened() {
+    isOpen() {
         return this._http != null;
     }
     open(correlationId, callback) {

@@ -19,7 +19,7 @@ export declare class MainFacadeService extends FacadeService implements IOpenabl
     setMaintenanceEnabed(value: boolean): void;
     configure(config: ConfigParams): void;
     setReferences(references: IReferences): void;
-    isOpened(): boolean;
+    isOpen(): boolean;
     open(correlationId: string, callback?: (err: any) => void): void;
     close(correlationId: string, callback?: (err: any) => void): void;
     protected getConnection(correlationId: string, callback: (err: any, result: ConnectionParams) => void): void;
